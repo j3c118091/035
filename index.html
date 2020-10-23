@@ -3,149 +3,352 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <title>PT.PIN</title>
+
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@500&family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" crossorigin="anonymous" />
+
+    <!-- my CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>035</title>
   </head>
-  <body class="bg-light">
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-nav py-3" style="background-color: rgba(17, 0, 255, 0);">
-        <a class="navbar-brand logo" href="#">LOGO</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="" class="btn ml-auto rounded-0 mv-entry">ENTRY</a>
-                </li>
-                <li class="nav-item">
-                  <button class="sidebarBtn" onclick="sidebarOpenClose()">&#9776;</button>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="one">
-        <div class="section-1">
-            <div class="container">
-                <div class="row justify-content-md-center" style="padding-top:5%;padding-bottom: 10%;">
-                    <div class="col-lg-8 pt-5">
-                        <h1 class="section-1-textjp">
-                            <center>技術が創る新しい世界</center>
-                        </h1>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center" style="padding-top: 15%;">
-                    <div class="col-lg-10 bg-white pt-5">
-                        <h1 class="section-1-texten">TECHNICAL</h1>
-                    </div>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Logo</a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <button type="button" class="btn btn-primary btn-square btn-blue">ENTRY</button>
+                        <button type="button" class="btn btn-square btn-transparent"><i class="fa fa-bars"></i></button>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-lg-12 bg-white pt-2 pb-4">
-                    <p class="section-1-textdummy pb-4">
-                        この文章はダミーです。
-                    </p>
-                    <p class="section-1-textdummy2">
-                      この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。<br>
-                      この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
-                    </p>
-                </div>
-            </div>
+        </nav>
+    </header>
+        
+    <section class="header">
+        <div class="content">
+            <h1>技術が創る新しい世界</h1>
         </div>
     </section>
-    <!-- <section id="two">
-      <div class="container-fluid">
+
+    <!--sec 2-->
+    <div class="technic">
+        <h1>TECHNICAL</h1>
+    </div>
+
+    <div class="content-2">
+        <p class="par1">この文章はダミーです。</p>
+        <p class="par2">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+        <p class="par2-mtop">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+
+        <div class="rows">
+            <div class="cards">
+                <img src="image/img_A1.jpg">
+                <div class="cards-text">
+                    <div class="middle">
+                        <p>Project File</p>
+                        <h1>01</h1>
+                        <p>タイトル</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="image/img_A2.jpg">
+                <div class="cards-text">
+                    <div class="middle">
+                        <p>Project File</p>
+                        <h1>02</h1>
+                        <p>タイトル</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="image/img_A3.jpg">
+                <div class="cards-text">
+                    <div class="middle">
+                        <p>Project File</p>
+                        <h1>03</h1>
+                        <p>タイトル</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="image/img_A4.jpg">
+                <div class="cards-text">
+                    <div class="middle">
+                        <p>Project File</p>
+                        <h1>04</h1>
+                        <p>タイトル</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <img src="image/img_A5.jpg">
+                <div class="cards-text">
+                    <div class="middle">
+                        <p>Project File</p>
+                        <h1>05</h1>
+                        <p>タイトル</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--sec 3-->
+    <div class="sec3">
+        <div class="content-3">
+            <h1>100年企業をめざして</h1>
+            <p class="absolute">.</p>
+            <hr color="#fffff">
+            <p>Aiming for 100 years company</p>
+            <div class="right">
+                <hr color="#fffff" width="50%" style="height: 1px;">
+                <a href="#">MORE</a>
+            </div>
+        </div>
+    </div>
+
+    <!--sec 4-->
+    <div class="sec4">
+        <div class="bg">
+        </div>
+        <img src="image/bg_3.jpg">
+        <h1>PROJECT</h1>
+        <h1 class="bottom-header">STORY</h1>
+        <p class="btn-modif"> 
+            <span>01</span>
+            <span class="para">タイトルが入ります。タイトルが入ります。</span>
+            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+        </p>
+        <p class="btn-modif2"> 
+            <span>02</span>
+            <span class="para">タイトルが入ります。タイトルが入ります。</span>
+            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+        </p> 
+    </div>
+
+    <!--sec 5-->
+    <div class="sec5">
+        <div class="bg">
+        </div>
+        <img src="image/bg_4.jpg">
+        <h1>WORK</h1>
+        <h1 class="bottom-header">STYLE</h1>
+        <p class="btn-modif"> 
+            <span class="para">タイトルが入ります。タイトルが入ります。</span>
+            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+        </p>
+    </div>
+
+    <!--sec 6-->
+    <div class="sec6">
+        <div class="bg_2">
+            <div class="row top">
+                <div class="col-6 m-left">
+                    <h1>INTERVIEW</h1>
+                    <p class="text1">社員紹介</p>
+                    <p class="text2">この文章はダミーです。文字の大きさ、量、</p>
+                    <p class="text3">字間、行間等を確認するために入れています。</p>
+                    <p class="text1">〇〇〇〇　/　名前  太郎</p>
+                    <a href="#" class="href-animation">MORE</a>
+                    <p class="btn-modif3">
+                        <span class="para2">タイトルが入ります。</span>
+                        <span><i class="fas fa-arrow-right"></i></span>
+                    </p>
+                </div>
+                <div class="col-4 col-next">
+                    <div class="owl-carousel owl-theme">
+                       <img src="image/img_pp.jpg"> 
+                       <img src="image/img_pp.jpg"> 
+                       <img src="image/img_pp.jpg"> 
+                       <img src="image/img_pp.jpg">  
+                    </div>
+                    <p class="btn-modif4">
+                        <span class="para2">タイトルが入ります。</span>
+                        <span><i class="fas fa-arrow-right"></i></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--sec 7-->
+    <div class="sec7">
         <div class="row">
-          <div class="col grid grid1">
-
-          </div>
-          <div class="col grid grid2">
-
-          </div>
-          <div class="col grid grid3">
-
-          </div>
-          <div class="col grid grid4">
-
-          </div>
-          <div class="col grid grid5">
-
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <section id="two">
-      <div class="container-xl">
-        <div class="row no-gutters">
-          <div class="col-sm grid grid1">test
-          </div>
-          <div class="col-sm grid grid2">
-          </div>
-          <div class="col-sm grid grid3">
-          </div>
-          <div class="col-sm grid grid4">
-          </div>
-          <div class="col-sm grid grid5">
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="three">
-                <div class="container bg-white">
-                  <div class="col">
-                    <div class="blankspace-100"></div>
-                  </div>
-                  <div class="col">
-                    <div class=" section-3-img">
-                      <div class="container">
-                        <div class="row">
-                            <div class="col-4 d-flex justify-content-center text-center" align="center">
-                                <span>技術が創る新しい世界</span>
+            <div class="col-6 m-top">
+                <div class="rows-modif m-right">
+                    <div class="square">
+                        <div class="cards-box">
+                            <img src="image/img_K1.jpg">
+                            <div class="card-head">
+                                <p><span class="para3">タイトルが入ります。</span> <a href="#"><i class="fas fa-arrow-right"></i></a></p>
                             </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
-
-
-                  <div class="col">
-                    <div class="blankspace-100"></div>
-                  </div>
                 </div>
+            </div>
+            <div class="col-6 m-top">
+                <div class="rows-modif">
+                    <div class="square">
+                        <div class="cards-box">
+                            <img src="image/img_K2.jpg">
+                            <div class="card-head">
+                                <p><span class="para4">タイトルが入ります。</span> <a href="#"><i class="fas fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </section>
+        <div class="row">
+            <div class="col-6 m-top2">
+                <div class="rows-modif m-right">
+                    <div class="square">
+                        <div class="cards-box">
+                            <img src="image/img_K3.jpg">
+                            <div class="card-head">
+                                <p><span class="para3">タイトルが入ります。</span> <a href="#"><i class="fas fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-6 m-top2">
+            <div class="rows-modif">
+                <div class="square">
+                    <div class="cards-box">
+                        <img src="image/img_K4.jpg">
+                        <div class="card-head">
+                            <p><span class="para4">タイトルが入ります。</span> <a href="#"><i class="fas fa-arrow-right"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- sec 8 -->
+    <div class="sec8">
+        <h1>BLOG</h1>
+        <p class="para5">オウンドメディア</p>
+
+        <div class="container-deck">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="image/img_C1.jpg" alt="Card image cap">
+                    <div class="card-body pl-0 pr-0">
+                        <div class="card-title"><span class="label-news">NEWS</span> <span class="label-date">0000.00.00</span></div>
+                        <p class="card-text">テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="image/img_C2.jpg" alt="Card image cap">
+                    <div class="card-body pl-0 pr-0">
+                        <div class="card-title"><span class="label-news">NEWS</span> <span class="label-date">0000.00.00</span></div>
+                        <p class="card-text">テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="image/img_C3.jpg" alt="Card image cap">
+                    <div class="card-body pl-0 pr-0">
+                        <div class="card-title"><span class="label-news">NEWS</span> <span class="label-date">0000.00.00</span></div>
+                        <p class="card-text">テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <center><button type="button" class="btn btn-light btn-lg btn-square btn-modif5 mt-3 pr-5 pl-5">MORE</button></center>
+
+    </div>
+
+    <!-- sec 9 -->
+    <div class="sec9">
+        <h1>RECRUIT</h1>
+        <p class="para6">採用情報</p>
+        <img src="image/bg_footer.jpg" class="img-footer">
+        <div class="container-deck">
+            <div class="card-deck">
+                <div class="card pt-5">
+                    <center>
+                        <i class="fas fa-clipboard-check fa-7x fa-blue"></i>
+                        <p class="card-text card-mp">募集要項</p>
+                    </center>
+                </div>
+                <div class="card pt-5">
+                    <center>
+                        <i class="fas fa-cogs fa-7x fa-blue"></i>
+                        <p class="card-text card-mp">選考プロセス</p>
+                    </center>
+                </div>
+                <div class="card pt-5">
+                    <center>
+                        <i class="fas fa-chart-line fa-7x fa-blue"></i>
+                        <p class="card-text card-mp">教育プログラム</p>
+                    </center>
+                </div>
+                <div class="card pt-5">
+                    <center>
+                        <i class="far fa-question-circle fa-7x fa-blue"></i>
+                        <p class="card-text card-mp">採用Q&A</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+        
+        <div class="abs-btn">
+            <button type="button" class="btn btn-primary btn-square btn-footer">ENTRY</button>
+        </div> 
+        
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer border-0">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-6">
+                    コーポレートサイト
+                </div>
+                <div class="col-4 ml-auto">
+                    &copy; 0000 SAMPLE Inc. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-
-    function sidebarOpenClose(){
-      if(document.getElementById("mySidebar").style.width == "250px"){
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-      }else{
-        document.getElementById("mySidebar").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-      }
-    }
-
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
