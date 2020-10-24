@@ -418,7 +418,7 @@ h1.bottom-header {
     position: relative;
     justify-items: center;
     align-self: center;
-    height: 90vh;
+    height: 70vh;
     margin-top: 50px;
 }
 
@@ -427,7 +427,6 @@ h1.bottom-header {
     top: 30px;
     justify-content: center;
     align-self: center;
-    height: 70%;
     width: 100%;
     margin: 2em auto;
     background: #d3d4d9;
@@ -611,7 +610,7 @@ h1.bottom-header {
 }
 
 .para3{
-    padding-right: 210px;
+    padding-right: 200px;
 }
 
 .para4{
@@ -676,7 +675,7 @@ h1.bottom-header {
     position: relative;
     justify-items: center;
     align-self: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .sec9 h1 {
